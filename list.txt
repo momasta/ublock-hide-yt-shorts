@@ -1,10 +1,10 @@
 ! Title: Hide YouTube Shorts
-! Description: Hide all traces of YouTube shorts videos on YouTube
+! Description: Hide all recommended YouTube Shorts
 ! Version: 2026.4.29
 ! Last modified: 2026-04-29 19:49
 ! Expires: 2 weeks (update frequency)
-! Homepage: https://github.com/gijsdev/ublock-hide-yt-shorts
-! License: https://github.com/gijsdev/ublock-hide-yt-shorts/blob/master/LICENSE.md
+! Homepage: https://github.com/momasta/ublock-hide-yt-shorts
+! License: https://github.com/momasta/ublock-hide-yt-shorts/blob/master/LICENSE.md
 
 ! Hide all videos with the shorts indicator
 www.youtube.com##ytd-thumbnail-overlay-time-status-renderer[overlay-style="SHORTS"]:upward(ytd-video-renderer)
@@ -20,6 +20,7 @@ www.youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid] ytm-shorts-lock
 www.youtube.com##ytd-guide-entry-renderer:has(.ytd-guide-entry-renderer[title="Shorts"])
 ! Tablet resolution
 www.youtube.com##ytd-mini-guide-entry-renderer:has(.ytd-mini-guide-entry-renderer[title="Shorts"])
+www.youtube.com##ytd-mini-guide-entry-renderer:has-text(Shorts)
 
 ! Hide shorts tab on channel pages
 www.youtube.com##yt-tab-shape[tab-title="Shorts"]
