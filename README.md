@@ -2,7 +2,8 @@
 
 A [uBlock Origin](https://github.com/gorhill/uBlock) filter list to hide all recommended YouTube Shorts.
 
-A fork of [gijsdev/ublock-hide-yt-shorts](https://github.com/gijsdev/ublock-hide-yt-shorts) which hides all traces of Shorts.
+A fork of [gijsdev/ublock-hide-yt-shorts](https://github.com/gijsdev/ublock-hide-yt-shorts) which hides all traces of Shorts.  
+My version allows Shorts on channel pages and the Subscriptions page.
 
 This filter list also works in AdGuard.
 
